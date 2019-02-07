@@ -1,0 +1,2 @@
+编译命令
+sudo aarch64-linux-gnu-gcc hardcontrol.c -fPIC -shared -o libhardcontrol.so -I /usr/lib/jvm/java-1.8.0-openjdk-amd64/include/ -I  /usr/lib/jvm/java-8-openjdk-amd64/include/linux/ -I /home/zwh/nfs/2.Work/RK3399/android/2.sourceCode/RK3399IND-pro/prebuilts/ndk/current/platforms/android-24/arch-arm64/usr/include/  -nostdlib /usr/aarch64-linux-gnu/lib/libc.so  /home/zwh/nfs/2.Work/RK3399/android/2.sourceCode/RK3399IND-pro/prebuilts/ndk/current/platforms/android-24/arch-arm64/usr/lib/liblog.so 
